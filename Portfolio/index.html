@@ -1,87 +1,82 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>My Portfolio</title>
 
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
+  <body>
+    <div class="hero-container">
+      <div id="particles-js">
+        <!--particles js files-->
 
-<body>
+        <!--particles.js file and then app.js-->
 
-<div class="hero-container">
+        <div class="hero-section">
+          <div class="social-icons footer-icons">
+            <a href="https://www.instagram.com/blessingtiger/"><i class="bx bxl-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCZE8lFXlTEECHIyd8uxxzag"><i class="bx bxl-youtube"></i></a>
+            <a href="https://x.com/EruonaTiger"><i class="bx bxl-twitter"></i></a>
+          </div>
 
-    <div id="particles-js">
-      <!--particles js files-->
+          <div class="hero-text">
+            <h1>Tiger<span class="span1"> Eruona Blessing</span></h1>
+            <p id="roles">
+              I'm a <span id="roleText"></span><span id="cursor">|</span>
+            </p>
+          </div>
 
-      <!--particles.js file and then app.js-->
-
-      <div class="hero-section">
-
-        <div class="social-icons footer-icons">
-          <a href="instagram.html"><i class='bx bxl-instagram'></i></a>
-          <a href="youtube.html"><i class='bx bxl-youtube'></i></a>
-          <a href="twitter"><i class='bx bxl-twitter'></i></a>
+          <div class="social-icons header-icons">
+            <a href="https://www.linkedin.com/in/tiger-eruona-blessing-1bb304289/"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/Blessingtiger"><i class="bx bxl-github"></i></a>
+            <a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="bx bxl-facebook"></i></a>
+          </div>
         </div>
-      
-        <div class="hero-text">
-          <h1>Tiger<span class="span1"> Eruona Blessing</span></h1>
-          <p id="roles">I'm a <span id="roleText"></span><span id="cursor">|</span></p>
-        </div>
-      
-        <div class="social-icons header-icons">
-          <a href="linkedin.html"><i class='bx bxl-linkedin'></i></a>
-          <a href="github.html"><i class='bx bxl-github'></i></a>
-          <a href="facebook.html"><i class='bx bxl-facebook'></i></a>
-          
-        </div>
-      
-      </div>
-      
-      <header class="header">
-        <div class="header-container">
-          <a href="#home" class="logo">PORTFOLIO.</a>
-          <div>
-            <i class="bx bx-menu" id="menu-icon"></i>
-            <nav class="navbar" id="navbar">
-              <a href="#home">Home</a>
-              <a href="#about">About</a>
-              <a href="#blog">Blog</a>
-              <a href="#portfolio">Portfolio</a>
-              <a href="#contact">Contact</a>
-            </nav>
-            <div class="overlay" id="overlay">
-              <nav class="overlay-menu">
+
+        <header class="header">
+          <div class="header-container">
+            <a href="#home" class="logo">PORTFOLIO.</a>
+            <div>
+              <i class="bx bx-menu" id="menu-icon"></i>
+              <nav class="navbar" id="navbar">
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#blog">Blog</a>
                 <a href="#portfolio">Portfolio</a>
                 <a href="#contact">Contact</a>
               </nav>
+              <div class="overlay" id="overlay">
+                <nav class="overlay-menu">
+                  <a href="#home">Home</a>
+                  <a href="#about">About</a>
+                  <a href="#blog">Blog</a>
+                  <a href="#portfolio">Portfolio</a>
+                  <a href="#contact">Contact</a>
+                </nav>
+              </div>
             </div>
           </div>
-        </div>
-      </header>
-      
-
-        
-
+        </header>
       </div>
+    </div>
 
-  </div>
-
-  <header class="header">
+    <!-- <header class="header">
 
       <div class="header-container">
 
@@ -127,298 +122,328 @@
 
       </div> 
 
-    </header>
+    </header> -->
+    <!-- my home page ends here -->
+
+    <!-- My Portfolio page starts here -->
+    <div class="portfolio-page">
+      <div class="portfolio-text">
+        <h1>My<span class="span1"> Portfolio</span></h1>
+        <p id="roles">some of My<span id="roleText"> works</span></p>
+
+        <div class="myprojects"> 
+          <!-- MY Weather app starts here -->
+          <div class="card"> 
+            <a href="../WeatherApp/"> weatherApp</a>
+            <p>
+              I built a weather app that provides real-time weather updates, forecasts, 
+              and alerts for various locations, featuring a user-friendly interface with options to search 
+              for cities and display temperature, humidity, and weather conditions.
+
+          </div>
+          <!-- my weather app ends here -->
+
+          <!-- my todo list starts here -->
+          <div class="card">
+            <a href="../todo list/"> Todo list</a>
+            <p>
+              I developed a to-do list app that allows users to create, edit, 
+              and delete tasks, set deadlines and reminders, categorize tasks, and mark them as complete,
+               all within a clean, intuitive interface that enhances task management and productivity.
+            </p>
+
+          </div>
+          <!-- my todo list ends here -->
+
+          <!-- my calulator app starts here -->
+          <div class="card">  
+            <a href=""> Calculator</a>
+            <p>
+              My calculator app performs basic arithmetic operations with a clear, 
+              intuitive interface, supporting real-time updates, error handling, keyboard input, operation chaining,
+               and responsive design for various devices.
+
+            </p>
+
+          </div>
+
+          <!-- my calulator app ends here -->
+        
+        </div>
 
 
-  <!--My about page starts from here-->
-  <div class="aboutMe-page">
-    <div class="aboutMe-content1">
-      <h1 id="me">About <span id="aboutMe"> Me</span></h1>
-      <p>Get to Know <span id="get">me</span></p>
+
+      </div>
     </div>
+    <!-- My portfolio page ends here -->
 
-    <div class="about-div">
-      <div class="about-content2">
-        <p class="aboutMe-text">I'm a creative <span id="redText">software engineer</span> based in Abuja, Nigeria.</p>
-        <p class="aboutMe-text2">with 1year of experience as a professional software engineer, I have acquire the skills and knowledge necessary to make your project a succes. I enjoy every step while working.</p>
-  
-        <div class="cv">
-          <input type="button" class="button" value="Download CV">
-  
+    <!--My about page starts from here-->
+    <div class="aboutMe-page">
+      <div class="aboutMe-content1">
+        <h1 id="me">About <span id="aboutMe"> Me</span></h1>
+        <p>Get to Know <span id="get">me</span></p>
+      </div>
+
+      <div class="about-div">
+        <div class="about-content2">
+          <p class="aboutMe-text">
+            I'm a creative <span id="redText">software engineer</span> based in
+            Abuja, Nigeria.
+          </p>
+          <p class="aboutMe-text2">
+            with 1year of experience as a professional software engineer, I have
+            acquire the skills and knowledge necessary to make your project a
+            succes. I enjoy every step while working.
+          </p>
+
+          <div class="cv">
+            <input type="button" class="button" value="Download CV" />
+          </div>
+        </div>
+
+        <div class="aboutMe-img">
+          <img src="girlfacingpc.jpg" alt="img" />
         </div>
       </div>
 
-      <div class="aboutMe-img">
-        <img src="girlfacingpc.jpg" alt="img">
+      <!-- my services starts here -->
+
+      <div class="service">
+        <h1 id="services">My<span class="whiteText"> Services</span></h1>
+
+        <div class="container">
+          <div class="card">
+            <div class="card-content">
+              <div class="card-icon"><i class="bx bx-laptop"></i></div>
+              <h1 class="card-title">Custom Software Development</h1>
+              <p class="card-description">
+                Tailored solutions designed to meet your specific needs. From
+                concept to deployment, I develop software that aligns perfectly
+                with your business objectives.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="card-icon"><i class="bx bxl-instagram-alt"></i></div>
+              <h1 class="card-title">Code Optimization</h1>
+              <p class="card-description">
+                Enhance the performance and efficiency of your existing
+                software. Through meticulous analysis and strategic
+                enhancements, I optimize code to deliver faster, more reliable
+                applications.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="card-icon"><i class="bx bx-bulb"></i></div>
+              <h1 class="card-title">Technical Consultation</h1>
+              <p class="card-description">
+                Expert advice and guidance to navigate complex technical
+                challenges. Whether you're exploring new technologies or
+                troubleshooting issues, I provide insights to help you make
+                informed decisions and achieve your goals.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+      <!-- my services ends here -->
 
-    </div>
-    
-
-    <!-- my services starts here -->
-
-    <div class="service">
-      <h1 id="services">My<span class="whiteText"> Services</span></h1>
-     
-      <div class="container">
-        <div class="card">
-          <div class="card-content">
-            <div class="card-icon"><i class='bx bx-laptop' ></i></div>
-            <h1 class="card-title">Custom Software Development</h1>
-            <p class="card-description">Tailored solutions designed to meet your specific needs. From concept to deployment, I develop software that aligns perfectly with your business objectives.</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <div class="card-icon"><i class='bx bxl-instagram-alt' ></i></div>
-            <h1 class="card-title">Code Optimization</h1>
-            <p class="card-description">Enhance the performance and efficiency of your existing software. Through meticulous analysis and strategic enhancements, I optimize code to deliver faster, more reliable applications.</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <div class="card-icon"><i class='bx bx-bulb' ></i></div>
-            <h1 class="card-title">Technical Consultation</h1>
-            <p class="card-description">Expert advice and guidance to navigate complex technical challenges. Whether you're exploring new technologies or troubleshooting issues, I provide insights to help you make informed decisions and achieve your goals.</p>
-          </div>
-        </div>
-      </div>
-      
-      </div> 
-    <!-- my services ends here -->
-
-    <!-- My Skills starts here -->
-    <div id="skills">
-
-      <div class="skills-header">
+      <!-- My Skills starts here -->
+      <div id="skills">
+        <div class="skills-header">
           <h1 class="whiteText">My <span id="redText"> Skills</span></h1>
+        </div>
+
+        <div class="skills-content" style="text-align: center">
+          <div class="skill-html skill">
+            <div class="skill-text">
+              <div class="html">HTML/CSS</div>
+            </div>
+
+            <div class="html-prog">
+              <div class="html-progress">95%</div>
+            </div>
+          </div>
+
+          <div class="skill-html skill">
+            <div class="skill-text">
+              <div class="html">Javascript</div>
+            </div>
+
+            <div class="html-prog">
+              <div class="js-progress">90%</div>
+            </div>
+          </div>
+
+          <div class="skill-html skill">
+            <div class="skill-text">
+              <div class="html">C#</div>
+            </div>
+
+            <div class="html-prog">
+              <div class="c-progress">83%</div>
+            </div>
+          </div>
+
+          <div class="skill-html skill">
+            <div class="skill-text">
+              <div class="html">Python</div>
+            </div>
+
+            <div class="html-prog">
+              <div class="python-progress">87%</div>
+            </div>
+          </div>
+
+          <div class="skill-html skill">
+            <div class="skill-text">
+              <div class="html">JQuery</div>
+            </div>
+
+            <div class="html-prog">
+              <div class="jquery-progress">94%</div>
+            </div>
+          </div>
+
+          <div class="skill-html skill">
+            <div class="skill-text">
+              <div class="html">AutoCard</div>
+            </div>
+
+            <div class="html-prog">
+              <div class="autoCard-progress">84%</div>
+            </div>
+          </div>
+        </div>
+
       </div>
 
-      <div class="skills-content " style="text-align: center;">
-          
-        <div class="skill-html skill">
-            <div class="skill-text">
-          
-                <div class="html">
-                  HTML/CSS
-                </div>
-            </div>
-
-          <div class="html-prog ">
-              <div class="html-progress ">95%</div>
-          </div>
-
-        </div>
-
-        <div class="skill-html skill">
-            <div class="skill-text">
-              <div class="html">
-                Javascript
-              </div>
-            </div>
-
-            <div class="html-prog ">
-              <div class="js-progress ">90%</div>
-            </div>
-
-        </div>
-
-        <div class="skill-html skill">
-            <div class="skill-text">
-              <div class="html">
-              C#
-              </div>
-            </div>
-
-          <div class="html-prog ">
-            <div class="c-progress ">83%</div>
-          </div>
-
-        </div>
-
-        <div class="skill-html skill">
-          <div class="skill-text">
-            <div class="html">
-              Python
-            </div>
-          </div>
-
-          <div class="html-prog ">
-            <div class="python-progress ">87%</div>
-          </div> 
-
-        </div>
-
-        <div class="skill-html skill">
-          <div class="skill-text">
-            <div class="html">
-              JQuery
-            </div>
-          </div>
-
-          <div class="html-prog ">
-          <div class="jquery-progress ">94%</div>
-          </div>
-
-        </div>
-
-        <div class="skill-html skill">
-          <div class="skill-text">
-            <div class="html">
-              AutoCard
-          </div>
-        </div>
-
-          <div class="html-prog ">
-            <div class="autoCard-progress ">84%</div>
-          </div>
-        </div>
+      <!-- My Skills ends here -->
     </div>
+    <!--My about page ends from here-->
 
-    <div class="footer">
-      <div class="footer-text">
-          <img src="girlonpc.jpg" alt="copyright-img" class="images" height="15px"> @ Tiger Eruona Blessing
+    <!-- My  Blog page starts here-->
+    <div class="Blog-page">
+      <div class="blog-content1">
+        <h1 id="me">Blogs</h1>
+        <p>My Latest<span id="get"> blog post</span></p>
       </div>
-    </div>
 
-    </div>
-
-    <!-- My Skills ends here -->
-  </div>
-  <!--My about page ends from here-->
-
-  <!-- My  Blog page starts here-->
- <div class="Blog-page">
-  <div class="blog-content1">
-    <h1 id="me">Blogs</h1>
-    <p>My Latest<span id="get"> blog post</span></p>
-  </div>
-
-  <div class="content2">
-
-    <main>
-    
-
-      <article class="blog-post">
-          <div class="blog-image">
-              <img src="coverphoto.jpg" alt="Image 2">
+      <div class="content2">
+        <main>
+          <article class="blog-post">
+            <div class="blog-image">
+              <img src="coverphoto.jpg" alt="Image 2" />
               <div class="date-div">April 5, 2024</div>
-          </div>
-          <div class="blog-content">
+            </div>
+            <div class="blog-content">
               <h2>The Essence of Software Engineering</h2>
-              <p>At its core, software engineering is about problem-solving. It's the process of analyzing needs, designing algorithms, coding solutions...</p>
+              <p>
+                At its core, software engineering is about problem-solving. It's
+                the process of analyzing needs, designing algorithms, coding
+                solutions...
+              </p>
+            </div>
+          </article>
+
+          <article class="blog-post">
+            <div class="blog-image">
+              <img src="girlfacingpc.jpg" alt="Image 2" />
+              <div class="date-div">April 10, 2024</div>
+            </div>
+            <div class="blog-content">
+              <h2>The Essence of Software Engineering</h2>
+              <p>
+                At its core, software engineering is about problem-solving. It's
+                the process of analyzing needs, designing algorithms, coding
+                solutions...
+              </p>
+            </div>
+          </article>
+
+          <article class="blog-post">
+            <div class="blog-image">
+              <img src="coloredpc.jpg" alt="Image 2" />
+              <div class="date-div">May 5, 2024</div>
+            </div>
+            <div class="blog-content">
+              <h2>The Essence of Software Engineering</h2>
+              <p>
+                At its core, software engineering is about problem-solving. It's
+                the process of analyzing needs, designing algorithms, coding
+                solutions...
+              </p>
+            </div>
+          </article>
+
+          <article class="blog-post">
+            <div class="blog-image">
+              <img src="cpu.jpg" alt="Image 2" />
+              <div class="date-div">May 7, 2024</div>
+            </div>
+            <div class="blog-content">
+              <h2>The Essence of Software Engineering</h2>
+              <p>
+                At its core, software engineering is about problem-solving. It's
+                the process of analyzing needs, designing algorithms, coding
+                solutions...
+              </p>
+            </div>
+          </article>
+
+          <article class="blog-post">
+            <div class="blog-image">
+              <img src="codeonpc.jpg" alt="Image 2" />
+              <div class="date-div">June 5, 2024</div>
+            </div>
+            <div class="blog-content">
+              <h2>The Essence of Software Engineering</h2>
+              <p>
+                At its core, software engineering is about problem-solving. It's
+                the process of analyzing needs, designing algorithms, coding
+                solutions...
+              </p>
+            </div>
+          </article>
+
+          <article class="blog-post">
+            <div class="blog-image">
+              <img src="girlonpc.jpg" alt="Image 2" />
+              <div class="date-div">May 29, 2024</div>
+            </div>
+            <div class="blog-content">
+              <h2>The Essence of Software Engineering</h2>
+              <p>
+                At its core, software engineering is about problem-solving. It's
+                the process of analyzing needs, designing algorithms, coding
+                solutions...
+              </p>
+            </div>
+          </article>
+        </main>
+
+        <div class="footer">
+          <div class="footer-text">
+            <img
+              src="girlonpc.jpg"
+              alt="copyright-img"
+              class="images"
+              height="15px"
+            />
+            @ Tiger Eruona Blessing
           </div>
-      </article>
-
-      <article class="blog-post">
-        <div class="blog-image">
-            <img src="girlfacingpc.jpg" alt="Image 2">
-            <div class="date-div">April 10, 2024</div>
         </div>
-        <div class="blog-content">
-            <h2>The Essence of Software Engineering</h2>
-            <p>At its core, software engineering is about problem-solving. It's the process of analyzing needs, designing algorithms, coding solutions...</p>
-        </div>
-    </article>
-
-    <article class="blog-post">
-      <div class="blog-image">
-          <img src="coloredpc.jpg" alt="Image 2">
-          <div class="date-div">May 5, 2024</div>
-      </div>
-      <div class="blog-content">
-          <h2>The Essence of Software Engineering</h2>
-          <p>At its core, software engineering is about problem-solving. It's the process of analyzing needs, designing algorithms, coding solutions...</p>
-      </div>
-  </article>
-
-  <article class="blog-post">
-    <div class="blog-image">
-        <img src="cpu.jpg" alt="Image 2">
-        <div class="date-div">May 7, 2024</div>
-    </div>
-    <div class="blog-content">
-        <h2>The Essence of Software Engineering</h2>
-        <p>At its core, software engineering is about problem-solving. It's the process of analyzing needs, designing algorithms, coding solutions...</p>
-    </div>
-</article>
-
-<article class="blog-post">
-  <div class="blog-image">
-      <img src="codeonpc.jpg" alt="Image 2">
-      <div class="date-div">June 5, 2024</div>
-  </div>
-  <div class="blog-content">
-      <h2>The Essence of Software Engineering</h2>
-      <p>At its core, software engineering is about problem-solving. It's the process of analyzing needs, designing algorithms, coding solutions...</p>
-  </div>
-</article>
-
-<article class="blog-post">
-  <div class="blog-image">
-      <img src="girlonpc.jpg" alt="Image 2">
-      <div class="date-div">May 29, 2024</div>
-  </div>
-  <div class="blog-content">
-      <h2>The Essence of Software Engineering</h2>
-      <p>At its core, software engineering is about problem-solving. It's the process of analyzing needs, designing algorithms, coding solutions...</p>
-  </div>
-</article>
-
-  </main>
-
-  <div class="footer">
-      <div class="footer-text">
-          <img src="girlonpc.jpg" alt="copyright-img" class="images" height="15px"> @ Tiger Eruona Blessing
-      </div>
-  </div>
-
-</div>
-  
-</div>
-  <!-- My Blog page ends here -->
-
-  <!-- My Portfolio page starts here -->
-<div class="portfolio-page">
-  <div class="portfolio-text"> 
-    <h1>My<span class="span1"> Portfolio</span></h1>
-    <p id="roles">some of My<span id="roleText"> works</span></p>
-  </div>
-<!-- 
-  <div class="image-card-container">
-    <div class="big-image-card">
-      <img src="coloredpc.jpg" alt="Big Image">
-    </div>
-
-    <div class="small-image-card">
-      <div class="overlay1">
-        <h2>HTML</h2>
-        <p>HTML, or Hypertext Markup Language, is the foundational language of the internet, used to structure and present content on web pages. It utilizes a system of tags to define the elements within a webpage, enabling browsers to render them visually. HTML works seamlessly with CSS and JavaScript, forming the basis of modern web development and enabling the creation of dynamic and interactive websites.</p>
       </div>
     </div>
-  </div>
- -->
+    <!-- My Blog page ends here -->
 
+    <script src="style.js"></script>
 
+    <script src="particles.js"></script>
 
-
-
-
-
-
-
-
-
-</div>
-  <!-- My portfolio page ends here -->
-
-
-  <script src="style.js"></script>
-
-  <script src="particles.js"></script>
-
-  <script src="app.js"></script>
-
-</body>
-
+    <script src="app.js"></script>
+  </body>
 </html>
